@@ -1,0 +1,31 @@
+PIZZA RUSH V32 — NPCs 3D REAIS E EM ESCALA HUMANA
+
+O que mudou nesta versão:
+- Os pedestres agora usam modelos GLB humanos completos, texturizados, em vez de bonecos montados com caixas e esferas.
+- Foram integradas 8 variações de poses/personagens: civil em pé, andando, braços cruzados, mãos nos bolsos, casaco, casaco andando, trabalhador de loja e acenando.
+- Cada modelo é medido pelo próprio Three.js e redimensionado para aproximadamente 1,94 m a 1,98 m de altura.
+- O ponto de apoio é corrigido pelo limite inferior real do modelo, para deixar os pés no chão.
+- Os modelos já incluem as texturas dentro do GLB.
+- Prédios, carros, árvores, sistema de entregas e garagem foram mantidos da base anterior.
+
+IMPORTANTE SOBRE OS NPCs:
+- Os GLBs são carregados pelo CDN https://cdn.3dassets.dev e precisam de internet.
+- Os modelos são do pack Low Poly Character Figures, licença CC0 1.0 Universal.
+- São poses estáticas pré-modeladas: o pedestre usa um modelo em pose de caminhada e se desloca pelo passeio. O pack não contém esqueleto/animação orgânica de braços e pernas.
+- Caso o CDN não responda, o jogo usa o modelo local de reserva já existente no código.
+
+COMO ABRIR:
+1. Extraia o ZIP inteiro para uma pasta nova.
+2. Abra a pasta Pizza_Rush_V32_NPC_Realistas no VS Code.
+3. Execute INICIAR_JOGO.bat ou use Live Server sobre index.html.
+4. Mantenha a internet ligada para carregar Three.js e os modelos humanos GLB.
+
+Modelos usados:
+- https://cdn.3dassets.dev/assets/36337/v1/model.glb
+- https://cdn.3dassets.dev/assets/36338/v1/model.glb
+- https://cdn.3dassets.dev/assets/36339/v1/model.glb
+- https://cdn.3dassets.dev/assets/36340/v1/model.glb
+- https://cdn.3dassets.dev/assets/36349/v1/model.glb
+- https://cdn.3dassets.dev/assets/36351/v1/model.glb
+- https://cdn.3dassets.dev/assets/36357/v1/model.glb
+- https://cdn.3dassets.dev/assets/36347/v1/model.glb
